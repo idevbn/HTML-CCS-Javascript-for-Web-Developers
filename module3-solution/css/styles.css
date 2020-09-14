@@ -1,0 +1,46 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Exo 2', sans-serif;
+  font-size: 16px;
+}
+
+.navbar-default {
+  /*background-color: #f8f8f8;*/
+  background-color: #737373;
+  border-color: #e7e7e7;
+}
+
+.navbar-default .navbar-brand {
+  color: #fff; 
+}
+
+nav .navbar-brand {
+  font-size: 1.6em;
+}
+
+.menu-title {
+  border-top: solid black 1px;
+  border-bottom: solid black 1px;
+}
+#menu-collapse .menu-title a:hover {
+  /*background-color: #c1c1c1;*/
+  background-color: #d3d3d3;
+}
+
+.row {
+  padding: 20px;
+}
+
+section {
+  padding: 20px;
+  color: white;
+  background-color: #737373;
+}
+
+.section-title {
+  font-size: 1.6em;
+  margin-bottom: 10px;
+}
