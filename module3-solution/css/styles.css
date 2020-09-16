@@ -3,18 +3,34 @@
 }
 
 body {
-  font-family: 'Exo 2', sans-serif;
+  /* CSS Variables */
+  --drk-gold: #CE973E;
+  --lgt-blue: #6ABFC3;
+  --section-clr: #95B0B2;
+
+  font-family: Helvetica, sans-serif;
   font-size: 16px;
 }
 
 .navbar-default {
-  /*background-color: #f8f8f8;*/
-  background-color: #737373;
-  border-color: #e7e7e7;
+  background-color: var(--drk-gold);
+  border-color: var(--drk-gold);
 }
 
 .navbar-default .navbar-brand {
   color: #fff; 
+}
+
+.navbar-default .navbar-toggle {
+  border-color: #fff;
+}
+
+.navbar-default .navbar-collapse, .navbar-default .navbar-form {
+  border-color: var(--drk-gold);
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+  background-color:#fff;
 }
 
 nav .navbar-brand {
@@ -22,12 +38,11 @@ nav .navbar-brand {
 }
 
 .menu-title {
-  border-top: solid black 1px;
-  border-bottom: solid black 1px;
+  border-top: solid var(--drk-gold) 1px;
+  border-bottom: solid var(--drk-gold) 1px;
 }
 #menu-collapse .menu-title a:hover {
-  /*background-color: #c1c1c1;*/
-  background-color: #d3d3d3;
+  background-color: var(--lgt-blue);
 }
 
 .row {
@@ -37,7 +52,9 @@ nav .navbar-brand {
 section {
   padding: 20px;
   color: white;
-  background-color: #737373;
+  /*background-color: #324B4C;*/
+  /*background-color: #2F898D;*/
+  background-color: var(--section-clr);
 }
 
 .section-title {
